@@ -17,6 +17,15 @@
   transform: translate(-50%, -50%);
 }
 
+#text_box_editor {
+	width: 100%;
+}
+
+#url-box {
+	border: 2px solid;
+	padding: 5px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -38,9 +47,6 @@
   color: #61dafb;
 }
 
-#text_editor {
-	margin: 30px;
-}
 
 @keyframes App-logo-spin {
   from {

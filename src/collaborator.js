@@ -43,13 +43,13 @@ function App(id) {
 
 	return (
 		<div className="App">
-			<div>
+			<div id="header">
 				<h1>Notion</h1>
-				URL: <a href={window.location.href}> Get Shareable Link </a>
+				<span id="url-box">URL: <a href={window.location.href}> Get Shareable Link </a></span>
 			</div> 
-			<div id="text_editor" style={{display:'block'}}>
+		<div id="text_box_container">
 			<div id="text_box_editor"/>
-			</div>
+		</div>
 		</div>
 	);
 }
