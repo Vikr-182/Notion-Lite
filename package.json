@@ -9,6 +9,7 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.5",
     "uuid": "^8.3.2",
     "y-quill": "^0.1.4",
     "y-webrtc": "^10.2.3",
