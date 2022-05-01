@@ -8,6 +8,6 @@ Instructions for running:
 ```
 npm install
 npm install styled-components
-npm run
+npm start
 ```
 It will then automatically navigate to the link where you can try out the collaborative text editor.
