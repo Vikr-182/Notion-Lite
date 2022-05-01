@@ -59,7 +59,7 @@ function App(id, name) {
 			<div id="header">
 				<h1>Notion Lite</h1>
 				<h5>User: {NAME}</h5>
-				<span id="url-box"><a href={window.location.origin+"/"+ID}> Get Shareable Link </a></span>
+				<span id="url-box"><a href={window.location.origin+"/"+ID} style={{ color: (theme == "dark")?"orange":"blue" }} > Get Shareable Link </a></span>
 			</div> 
 			<div id="text_box_container">
 				<div id="text_box_editor"/>
