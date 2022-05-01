@@ -28,7 +28,7 @@ function App() {
 		<div id="landing-screen" className="App">
 			<Toggle theme={theme} toggleTheme={themeToggler} />
 			<div>
-				<h1>Notion-Lite</h1>
+				<h1>Notion Lite</h1>
 			</div>
 			<form>
 				<label for="fname">Name:  </label>
