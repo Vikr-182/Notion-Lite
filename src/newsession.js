@@ -13,14 +13,10 @@ function App(id) {
 	function launch_session()
 	{
 		var name = document.getElementById("fname").value;
-		console.log(name);
-		console.log(ID);
 		var route_path = "/"+ID+"/"+name;
-		console.log(route_path);
 		prev_states.push(route_path, route_path)
 	}
 
-	console.log(id);
 	const ID = id.match.params.id
 	const [theme, themeToggler, mountedComponent] = useDarkMode();
 
