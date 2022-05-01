@@ -1,4 +1,4 @@
-import './App.css';
+import './editor.css';
 import React, { useState, useEffect } from 'react';
 import {ThemeProvider} from "styled-components";
 import  {useDarkMode} from "./components/useDarkMode"

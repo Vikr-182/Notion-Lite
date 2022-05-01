@@ -1,7 +1,7 @@
-import './App.css';
+import './editor.css';
 import * as Quill from 'quill'
-import './quill_snow.css'
 import React, { useState, useEffect } from 'react';
+import './quill_snow.css'
 import * as Y from 'yjs'
 import {ThemeProvider} from "styled-components";
 import  {useDarkMode} from "./components/useDarkMode"
@@ -53,7 +53,7 @@ function App(id) {
 		{/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
 			<div id="header">
 				<h1>Notion</h1>
-				<span id="url-box">URL: <a href={window.location.href}> Get Shareable Link </a></span>
+				<span id="url-box"><a href={window.location.href}> Get Shareable Link </a></span>
 			</div> 
 		<div id="text_box_container">
 			<div id="text_box_editor"/>
