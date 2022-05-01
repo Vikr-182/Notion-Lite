@@ -17,7 +17,6 @@ function App(id, name) {
 	const ID = id.location.pathname.split('/')[1];
 	const NAME = id.location.pathname.split('/')[2];
 	const [quill_state, setQuill] = useState(null);
-	//const State = id.location.state
 	// const [theme, themeToggler, mountedComponent] = useDarkMode();
 	// const themeMode = theme === 'light' ? lightTheme : darkTheme;
 	useEffect(()=>{

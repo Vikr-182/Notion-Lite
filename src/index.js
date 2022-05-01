@@ -16,8 +16,6 @@ const routing = (
   </Router>
 )
 
-//routing
-
 ReactDOM.render(
   routing,
   document.getElementById('root')

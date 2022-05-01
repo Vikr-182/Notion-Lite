@@ -1,5 +1,4 @@
 import './editor.css';
-import React, { useState, useEffect } from 'react';
 import {ThemeProvider} from "styled-components";
 import  {useDarkMode} from "./components/useDarkMode"
 import { GlobalStyles } from "./components/Globalstyle";
@@ -7,7 +6,6 @@ import { lightTheme, darkTheme } from "./components/Themes"
 import Toggle from "./components/Toggler"
 import { v1 as uuidv1 } from 'uuid';
 import { useHistory } from 'react-router-dom'
-//import { WebrtcProvider } from 'y-webrtc'
 
 function App() {
   
@@ -15,7 +13,6 @@ function App() {
   function launch_page()
   {
     let path_id=uuidv1()
-    //Generating new ids for new pages
 	var name = document.getElementById("fname").value;
     var route_path = "/"+path_id+"/"+name
     prev_states.push(route_path, route_path)
