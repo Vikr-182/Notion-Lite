@@ -52,7 +52,7 @@ function App(id) {
 		<div className="App">
 		{/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
 			<div id="header">
-				<h1>Notion</h1>
+				<h1>Notion-Lite</h1>
 				<span id="url-box"><a href={window.location.href}> Get Shareable Link </a></span>
 			</div> 
 		<div id="text_box_container">

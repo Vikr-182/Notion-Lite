@@ -31,7 +31,7 @@ function App() {
     <div id="landing-screen" className="App">
     <Toggle theme={theme} toggleTheme={themeToggler} />
       <div>
-        <h1>Notion</h1>
+        <h1>Notion-Lite</h1>
       </div>
       <button onClick={launch_page}>Create a New Page</button>
     </div>
