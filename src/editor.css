@@ -22,8 +22,10 @@
 }
 
 #url-box {
-	border: 2px solid;
+	border: 1px solid;
 	padding: 5px;
+	border-radius: 5px;
+	/*background-color: #4b92e3;*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
