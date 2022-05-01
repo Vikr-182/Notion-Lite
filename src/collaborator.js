@@ -17,8 +17,8 @@ function App(id, name) {
 	const ID = id.location.pathname.split('/')[1];
 	const NAME = id.location.pathname.split('/')[2];
 	const [quill_state, setQuill] = useState(null);
-	// const [theme, themeToggler, mountedComponent] = useDarkMode();
-	// const themeMode = theme === 'light' ? lightTheme : darkTheme;
+	const [theme, themeToggler, mountedComponent] = useDarkMode();
+	const themeMode = theme === 'light' ? lightTheme : darkTheme;
 	useEffect(()=>{
 		Quill.register('modules/cursors', QuillCursors)
 		if(quill_state===null)
@@ -51,9 +51,9 @@ function App(id, name) {
 	})
 
 	return (
-		// <ThemeProvider theme={themeMode}>
-		// <>
-		// <GlobalStyles/>
+		<ThemeProvider theme={themeMode}>
+		<>
+		<GlobalStyles/>
 		<div className="App">
 			{/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
 			<div id="header">
@@ -65,8 +65,8 @@ function App(id, name) {
 				<div id="text_box_editor"/>
 			</div>
 		</div>
-		// </>
-		// </ThemeProvider>
+		</>
+		</ThemeProvider>
 	);
 }
 
