@@ -16,7 +16,8 @@ function App() {
   {
     let path_id=uuidv1()
     //Generating new ids for new pages
-    var route_path = "/"+path_id
+	var name = document.getElementById("fname").value;
+    var route_path = "/"+path_id+"/"+name
     prev_states.push(route_path, route_path)
   }
 
@@ -33,7 +34,13 @@ function App() {
       <div>
         <h1>Notion</h1>
       </div>
-      <button onClick={launch_page}>Create a New Page</button>
+
+	  <form>
+	  <label for="fname">Name:  </label>
+		  <input type="text" id="fname" /><br/><br/>
+
+      <button id="nameButton" onClick={launch_page}>Create a New Page</button>
+	  </form>
     </div>
     </>
     </ThemeProvider>
