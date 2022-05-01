@@ -13,7 +13,7 @@ https://drive.google.com/drive/folders/1fAvharMCSzNCvUKTVXZ7AxckhmCTwFW7?usp=sha
 
 # Introduction
 
-Collaborative text editors allow for remote text editing of the same document.
+Collaborative text editors allow for remote text editing of the same document by multiple users.
 
 # Technologies used
 
