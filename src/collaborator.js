@@ -56,15 +56,15 @@ function App(id, name) {
 		// <>
 		// <GlobalStyles/>
 		<div className="App">
-		{/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
-		<div id="header">
-		<h1>Notion-Lite</h1>
-		<h5>User: {NAME}</h5>
-		<span id="url-box"><a href={window.location.origin+"/"+ID}> Get Shareable Link </a></span>
-		</div> 
-		<div id="text_box_container">
-		<div id="text_box_editor"/>
-		</div>
+			{/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
+			<div id="header">
+				<h1>Notion-Lite</h1>
+				<h5>User: {NAME}</h5>
+				<span id="url-box"><a href={window.location.origin+"/"+ID}> Get Shareable Link </a></span>
+			</div> 
+			<div id="text_box_container">
+				<div id="text_box_editor"/>
+			</div>
 		</div>
 		// </>
 		// </ThemeProvider>

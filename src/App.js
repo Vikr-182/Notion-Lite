@@ -22,28 +22,25 @@ function App() {
   }
 
   const [theme, themeToggler, mountedComponent] = useDarkMode();
-
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
   return (
-    <ThemeProvider theme={themeMode}>
-    <>
-    <GlobalStyles/>
-    <div id="landing-screen" className="App">
-    <Toggle theme={theme} toggleTheme={themeToggler} />
-      <div>
-        <h1>Notion-Lite</h1>
-      </div>
-
-	  <form>
-	  <label for="fname">Name:  </label>
-		  <input type="text" id="fname" /><br/><br/>
-
-      <button id="nameButton" onClick={launch_page}>Create a New Page</button>
-	  </form>
-    </div>
-    </>
-    </ThemeProvider>
+	<ThemeProvider theme={themeMode}>
+		<>
+		<GlobalStyles/>
+		<div id="landing-screen" className="App">
+			<Toggle theme={theme} toggleTheme={themeToggler} />
+			<div>
+				<h1>Notion-Lite</h1>
+			</div>
+			<form>
+				<label for="fname">Name:  </label>
+				<input type="text" id="fname" /><br/><br/>
+				<button id="nameButton" onClick={launch_page}>Create a New Page</button>
+			</form>
+		</div>
+		</>
+	</ThemeProvider>
   );
 }
 
