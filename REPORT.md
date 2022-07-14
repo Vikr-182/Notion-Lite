@@ -1,19 +1,12 @@
-# Distributed Systems Project Report
-# Building a a Real Time Collaborative Text Editor
-
-# Team Spring Quartet
-
-## Team members: Ahish Deshpande, Pranav Kirsur, Sahil Bhatt, Vikrant Dewangan
-
-# Link to detailed report
-
-This is just a basic report introducing the technologies used in our project. For the full report please view this link:
-
-https://drive.google.com/drive/folders/1fAvharMCSzNCvUKTVXZ7AxckhmCTwFW7?usp=sharing
+# Notion Lite - A Real Time Collaborative Text Editor
 
 # Introduction
 
 Collaborative text editors allow for remote text editing of the same document by multiple users.
+
+# Demo
+Sample Demo
+![Demo](docs/demo.jpg)
 
 # Technologies used
 
@@ -34,4 +27,8 @@ WebRTC allows us to use Real Time Communication (RTC) in a direct peer-to-peer m
 
 We use ReactJS to build the website for our collaborative text editor.
 
+# Link to detailed report
 
+This is just a basic report introducing the technologies used in our project. For the full report please view this link:
+
+https://drive.google.com/drive/folders/1fAvharMCSzNCvUKTVXZ7AxckhmCTwFW7?usp=sharing
